@@ -14,7 +14,7 @@ function states(){
     var x="";
     for(var i=0; i<data.length; i++){
         if(state == data[i].state){
-            x = x + " ,"+ data[i].name;
+            x = x + data[i].name + " ,";
         }
         city.innerHTML=x;
     }
